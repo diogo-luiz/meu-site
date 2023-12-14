@@ -92,6 +92,7 @@ section {
     background-position:center;
 }
 
+
 .home-content {
     max-width: 60rem;
     z-index: 99;
@@ -686,6 +687,8 @@ span {
     .home {
         padding: 0 4%;
     }
+
+    
 
     .footer {
         padding: 2rem 4%;
