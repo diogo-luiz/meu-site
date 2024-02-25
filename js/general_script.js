@@ -1,12 +1,3 @@
-// function Total() {
-//     var tabela = document.getElementById('minhatabela');
-//     var inputs = tabela.getElementsByTagName('input');
-
-//     for (var i = 0; i < inputs.length; i++) {
-//         console.log(inputs[i].value);
-//     }
-// }
-
 function clicar() {
     var lista = {
         'col1_total': 'j1',
@@ -16,13 +7,7 @@ function clicar() {
 
     var inputs = document.querySelectorAll('#minhatabela input');
     var mensagem = document.getElementById('mensagem');
-    inputs.forEach(function(input) {
-        input.addEventListener('input', function() {
-            verificarPreenchimento();
-        });
-    });
-
-    // ---------------
+    
     const cols = document.getElementsByTagName("input");
     for (let index = 0; index < cols.length; index++) {
         var ls_nm = cols[index].name;
