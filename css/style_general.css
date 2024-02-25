@@ -116,7 +116,13 @@ input {
 }
 
 #btn {
-  color:black;
+  margin-left: 10%;
+  border-radius: 10px;
+  list-style: none;
+  border: 0px solid white;
+  background-color: #272727;
+  color: white;
+  padding: 4px 8px;
 }
 
 #fogos {
