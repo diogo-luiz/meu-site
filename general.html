@@ -8,17 +8,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body onload="MyLoad()">
+<body>
+  <div id="fogos">
+    <div class="fogos"></div>
+    <div class="fogos"></div>
+    <div class="fogos"></div>
+    <div class="fogos"></div>
+  </div>
+
+  <!-- <dialog class="modalJogadores">
+    <form class="formularioJogadores">
+      <input id="nomeJogador1" placeholder="Jogador 1"></br>
+      <input id="nomeJogador2" placeholder="Jogador 2"></br>
+      <input id="nomeJogador3" placeholder="Jogador 3"></br>
+      <input id="nomeJogador4" placeholder="Jogador 4"></br>
+    </form>
+  </dialog> -->
   <header class="cabecalho">Tabela<image class="general" src="images/general.jpg">General</header>
   <!-- <h1 id="titulo">Tabela General</h1> -->
   <table id="minhatabela">
       <thead>
         <tr>
           <th id="tabelaPrincipal"></th>
-          <th id="j1">Jogador 1</td>
-          <th id="j2">Jogador 2</td>
-          <th id="j3">Jogador 3</td>
-          <th id="j4">Jogador 4</td>
+          <th id="j1">Diogo</td>
+          <th id="j2">Juliana</td>
+          <th id="j3">Patricia</td>
+          <th id="j4">Kimberly</td>
         </tr>
       </thead>
       <tbody>
@@ -123,6 +138,7 @@
         </tr>
       </tbody>
   </table>
+  <button id="btn" onclick="clicar()">Calcular</button>
   <dialog id="mensagem">VENCEDOR<p id="ganhador"></p></dialog>
   <script src="js/general_script.js"></script>
 </body>
