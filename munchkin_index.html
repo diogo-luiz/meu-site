@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munchkin Counter</title>
+    <link rel="stylesheet" type="text/css" href="css/munchkin_style.css">
+    
+
+</head>
+<body>
+    <header class="header">
+        <a href="/">Logo</a>
+        <nav>
+            <ul class="menu">
+                <li><a href="munchkin_index.html">Contador</a></li>
+                <li><a href="dados.html">Dado</a></li>
+                <li><a href="/">Killometro</a></li>
+                <li><a href="/">Config</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="section"></section>
+    <div class="box">
+        <div class="levelBox">
+            <p class="texto">Level</p>
+            <label id="countLabel">1</label>
+            <button id="decrease"><img src="./static/bitmap.png"></button>
+            <button id="reset"><span class="reset">&#8634;</span></button>
+            <button id="increase"><img src="./static/bitmap.png"></button>
+        </div>
+        <div class="itemBox">
+            <p class="texto">Item</p>
+            <label id="countItem">1</label>
+            <button id="decreaseItem"><img src="./static/bitmap.png"></button>
+            <button id="resetItem"><span class="reset">&#8634;</span></button>
+            <button id="increaseItem"><img src="./static/bitmap.png"></button>
+        </div>
+        <div class="modifierBox">
+            <p class="texto">Modificador</p>
+            <label id="countModifier">1</label>
+            <button id="decreaseModifier"><img src="./static/bitmap.png"></button>
+            <button id="resetModifier"><span class="reset">&#8634;</span></button>
+            <button id="increaseModifier"><img src="./static/bitmap.png"></button>
+        </div>
+        <div class="alliedBox">
+            <p class="texto">Aliado</p>
+            <label id="countAllied">1</label>
+            <button id="decreaseAllied"><img src="./static/bitmap.png"></button>
+            <button id="resetAllied"><span class="reset">&#8634;</span></button>
+            <button id="increaseAllied"><img class="increaseAllied" src="./static/bitmap.png"></button>
+        </div>
+    </div>
+    <script src="js/munchkin_script.js"></script>
+</body>
+</html> 
