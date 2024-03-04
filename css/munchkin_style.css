@@ -2,9 +2,9 @@
 
 body {
     background-image: url("../static/stone_wall.png");
-    background-size: cover ;
     background-repeat: no-repeat;
-    background-size: 130%;
+    background-size:auto;
+    background-position: 0 40px;
     font-family: "Macondo", cursive;
     font-style: normal;
 
@@ -14,7 +14,7 @@ body, ul, li {
     margin: 0px;
     padding: 0px;
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 18px;
     color: black;
 }
 
@@ -37,12 +37,12 @@ a {
 }
 
 .menu li {
-    margin-left: 10px;
+    margin-left: 3px;
 }
 
 .menu li a {
     display: block;
-    padding: 10px;
+    padding: 3px;
     background-color: rgb(194, 73, 51);
 }
 
@@ -61,11 +61,11 @@ a {
 .box {
     position: absolute;
     display: grid;
-    grid-template-columns: 160px 160px;
+    grid-template-columns: 140px 140px;
     text-align: center;
     max-width: 450px;
     grid-gap: 40px;
-    font-size: 35px;
+    font-size: 28px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -70%);
@@ -83,8 +83,8 @@ button {
 }
 
 img {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     object-fit: fill;
 }
 
