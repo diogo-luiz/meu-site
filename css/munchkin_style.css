@@ -4,7 +4,7 @@ body {
     background-image: url("../static/stone_wall.png");
     background-size: cover ;
     background-repeat: no-repeat;
-    background-size: 104%;
+    background-size: 130%;
     font-family: "Macondo", cursive;
     font-style: normal;
 
@@ -52,7 +52,7 @@ a {
     padding-bottom: 700px;
     background-color: white;
     opacity: .5;
-    max-width: 450px;
+    max-width: 430px;
     max-height: 800px;
     margin: 0 auto;
     margin-top: 45px;
@@ -61,14 +61,14 @@ a {
 .box {
     position: absolute;
     display: grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 160px 160px;
     text-align: center;
     max-width: 450px;
     grid-gap: 40px;
     font-size: 35px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -70%);
 
 }
 
