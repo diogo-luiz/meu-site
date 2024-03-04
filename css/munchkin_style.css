@@ -8,7 +8,6 @@ body {
     background-position: 0 40px;
     font-family: "Macondo", cursive;
     font-style: normal;
-
 }
 
 body, ul, li {
@@ -53,7 +52,7 @@ a {
     padding-bottom: 500px;
     background-color: white;
     opacity: .5;
-    max-width: 280px;
+    max-width: 300px;
     max-height: 600px;
     margin: 0 auto;
     margin-top: 20px;
