@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css2?family=Macondo&display=swap);
+body {
+    position: relative;
+    background-image: url("../static/stone_wall.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: "Macondo", cursive;
+    font-style: normal;
+}
+
+
+body, ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 18px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    background-color: #1d1e20;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu li {
+    margin-left: 3px;
+}
+
+.menu li a {
+    display: block;
+    padding: 3px;
+    background-color: rgb(194, 73, 51);
+}
+
+.section {
+    position: relative;
+    border-radius: 20px;
+    padding-bottom: 500px;
+    background-color: white;
+    opacity: .5;
+    max-width: 4000px;
+    max-height: 600px;
+    margin: 0 5%;
+    margin-top: 20px;
+}
+
+.guerreiro {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+.contador {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translate(0, -50%);
+}
