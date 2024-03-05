@@ -60,7 +60,7 @@ a {
 .box {
     position: absolute;
     display: grid;
-    grid-template-columns: 100px 100px;
+    grid-template-columns: 120px 120px;
     text-align: center;
     max-width: 400px;
     grid-gap: 40px;
