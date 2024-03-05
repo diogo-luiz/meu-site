@@ -63,7 +63,7 @@ a {
     grid-template-columns: 120px 120px;
     text-align: center;
     max-width: 400px;
-    grid-gap: 40px;
+    grid-gap: 60px;
     font-size: 28px;
     top: 50%;
     left: 50%;
