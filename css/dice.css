@@ -1,9 +1,11 @@
 @import url(https://fonts.googleapis.com/css2?family=Macondo&display=swap);
 body {
     position: relative;
-    background-image: url("../static/stone_wall.png");
+    background-image: url(../static/stone_wall.png);
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size:cover;
+    background-attachment: fixed;
     font-family: "Macondo", cursive;
     font-style: normal;
 }
