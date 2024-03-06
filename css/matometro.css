@@ -59,15 +59,18 @@ a {
     margin-top: 20px;
 }
 
-.guerreiro {
+.contadorGuerreiro {
     position: absolute;
-    top: 20%;
-    left: 25%;
+    top: 25%;
+    left: 45%;
     transform: translate(-50%, -50%);
 }
-.contador {
-    position: absolute;
-    top: 30%;
-    left: 15%;
-    transform: translate(0, -50%);
+
+.jogador {
+    margin-top: 10px;
 }
+
+.contador {
+    margin-top: 5px;
+}
+
