@@ -59,18 +59,8 @@ a {
     margin-top: 20px;
 }
 
-.contadorGuerreiro {
-    position: absolute;
-    top: 25%;
-    left: 45%;
-    transform: translate(-50%, -50%);
-}
 
-.jogador {
-    margin-top: 10px;
+.contadores {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-
-.contador {
-    margin-top: 5px;
-}
-

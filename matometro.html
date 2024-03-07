@@ -21,10 +21,29 @@
         </nav>
     </header>
     <section class="section"></section>
-    <div class="contadorGuerreiro"><input onclick="check()" type="checkbox" class="guerreiro" id="guerreiro" name="guerreiro"><label for="guerreiro">Guerreiro</label></body</div>
-    <div class="jogador" id="jogador">
-        <spam>Jogador</spam>
-        <input class="contador" type="text" readonly placeholder="Contador">
+    <div class="contadores">
+        <div class="divContadorGuerreiro">
+            <div class="contadorGuerreiro"><input onclick="check()" type="checkbox" id="guerreiro">Guerreiro</label></div>
+            <div class="jogador" id="jogador">
+                <spam>Jogador</spam>
+                <input class="contador" type="text" readonly placeholder="Contador">
+            </div>
+        </div>
+
+        <div class="divContadorAliado">
+            <div class="divAliado"><input type="checkbox" class="aliado" id="aliado" name="aliado"><label for="aliado">Aliado</label></div>
+            <div class="aliado">
+                <spam>Aliado</spam>
+                <input class="contadorAliado" type="text" readonly placeholder="Aliado">
+            </div>
+        </div>
+
+        <div class="divContadorMonstro">
+            <div class="monstro">
+                <spam>Monstro</spam>
+                <input id="monstro" type="text" readonly placeholder="Monstro">
+            </div>
+        </div>
     </div>
 
     <script src="js/matometro.js"></script>
