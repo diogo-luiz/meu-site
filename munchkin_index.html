@@ -16,11 +16,12 @@
                 <li><a href="munchkin_index.html">Contador</a></li>
                 <li><a href="dados.html">Dado</a></li>
                 <li><a href="matometro.html">Matômetro</a></li>
-                <li><a href="/">Config</a></li>
+                <li><button id="open-modal">Config</button></li>
             </ul>
         </nav>
     </header>
     <section class="section"></section>
+
     <div class="box">
         <div class="levelBox">
             <p class="texto">Level</p>
@@ -49,6 +50,17 @@
             <button id="decreaseAllied"><img src="./static/bitmap.png"></button>
             <button id="resetAllied"><span class="reset">&#8634;</span></button>
             <button id="increaseAllied"><img class="increaseAllied" src="./static/bitmap.png"></button>
+        </div>
+    </div>
+    <div id="fade" class="hide"></div>
+        <div id="modal" class="hide">
+            <div class="modal-header">
+                <h2>Configurações</h2>
+                <button id="close-modal">Fechar</button>
+            </div>
+            <div class="modal-body">
+                <p>texto</p>
+            </div>
         </div>
     </div>
     <script src="js/munchkin_script.js"></script>
