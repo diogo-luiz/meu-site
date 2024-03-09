@@ -63,9 +63,10 @@ a:hover {
     background-color: white;
     opacity: .5;
     width: 500px;
+    transform: translate(-50%, 0);
+    left: 50%;
     max-width: 90%;
     max-height: 90%;
-    margin: 0 5%;
     margin-top: 20px;
 }
 
@@ -169,6 +170,8 @@ img {
 
 #modal.hide {
     top: 0;
+    left: 90%;
     height: 0;
+    width: 0;
     font-size: 0px;
 }
