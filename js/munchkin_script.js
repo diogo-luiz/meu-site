@@ -36,8 +36,8 @@ document.getElementById('increase').onclick = function() {
 
 //Item Counter
 document.getElementById('decreaseItem').onclick = function() {
-    if (countItem === 1) {
-        countItem = 1
+    if (countItem === 0) {
+        countItem = 0
     }
     else {
         countItem-=1;
@@ -48,7 +48,7 @@ document.getElementById('decreaseItem').onclick = function() {
 }
 
 document.getElementById('resetItem').onclick = function() {
-    countItem = 1
+    countItem = 0
     document.getElementById('countItem').innerHTML = countItem;
 }
 
@@ -61,8 +61,8 @@ document.getElementById('increaseItem').onclick = function() {
 
 //Modifier Counter
 document.getElementById('decreaseModifier').onclick = function() {
-    if (countModify === 1) {
-        countModify = 1
+    if (countModify === 0) {
+        countModify = 0
     }
     else {
         countModify-=1;
@@ -73,7 +73,7 @@ document.getElementById('decreaseModifier').onclick = function() {
 }
 
 document.getElementById('resetModifier').onclick = function() {
-    countModify = 1
+    countModify = 0
     document.getElementById('countModifier').innerHTML = countModify;
 }
 
@@ -85,8 +85,8 @@ document.getElementById('increaseModifier').onclick = function() {
 
 //allied counter
 document.getElementById('decreaseAllied').onclick = function() {
-    if (countAllied === 1) {
-        countAllied = 1
+    if (countAllied === 0) {
+        countAllied = 0
     }
     else {
         countAllied-=1;
@@ -97,7 +97,7 @@ document.getElementById('decreaseAllied').onclick = function() {
 }
 
 document.getElementById('resetAllied').onclick = function() {
-    countAllied = 1
+    countAllied = 0
     document.getElementById('countAllied').innerHTML = countAllied;
 }
 
